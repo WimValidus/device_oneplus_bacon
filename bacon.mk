@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.bacon \
     libshim_camera \
+    libshim_cameraclient
 
 # Charger
 PRODUCT_PACKAGES += \
