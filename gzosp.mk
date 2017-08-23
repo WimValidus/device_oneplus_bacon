@@ -23,7 +23,6 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
 # Inherit some common Gzosp stuff.
 $(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/gzosp/config/caf_fw.mk)
 
 PRODUCT_NAME := gzosp_bacon
 PRODUCT_DEVICE := bacon
