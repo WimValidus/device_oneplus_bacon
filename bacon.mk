@@ -250,6 +250,9 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/bacon_sensors.conf:system/etc/sensors/bacon_sensors.conf
+
 # Thermal config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine-8974.conf
