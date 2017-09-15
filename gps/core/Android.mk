@@ -17,7 +17,8 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     libcutils \
     libgps.utils \
-    libdl
+    libdl \
+    liblog
 
 LOCAL_SRC_FILES += \
     LocApiBase.cpp \
@@ -46,8 +47,6 @@ LOCAL_COPY_HEADERS:= \
     gps_extended.h \
     loc_core_log.h \
     LocAdapterProxyBase.h
-
-LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -llog
 
 LOCAL_PRELINK_MODULE := false
 
