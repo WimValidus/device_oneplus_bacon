@@ -74,7 +74,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    camera.device@3.2-impl \
+    camera.device@1.0-impl \
     camera.bacon \
     libshim_camera \
     libshim_cameraclient
