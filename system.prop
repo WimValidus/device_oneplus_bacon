@@ -40,6 +40,7 @@ audio.deep_buffer.media=true
 
 mm.enable.smoothstreaming=true
 persist.media.treble_omx=false
+camera.disable_treble=true
 media.aac_51_output_enabled=true
 
 # Network
