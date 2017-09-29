@@ -1,13 +1,13 @@
 [
   {
-    "repository": "Tesla-M-Devices/device_oppo_common",
+    "repository": "GZOSP-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "n7.1"
+    "branch": "8.0"
   },
   {
     "repository": "BigTopKrazies/vendor_oneplus_bacon",
     "target_path": "vendor/oneplus",
-    "branch": "n7.1"
+    "branch": "8.0"
   },
   {
     "repository": "BigTopKrazies/proprietary_vendor_qcom_binaries",
@@ -17,6 +17,6 @@
   {
     "repository": "GZR-Kernels/kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
-    "branch": "n7.1"
+    "branch": "8.0"
   }
 ]
