@@ -1,5 +1,10 @@
 [
   {
+    "repository": "WimValidus/device_oneplus_bacon",
+    "target_path": "device/oneplus/bacon",
+    "branch": "8.1"
+  },
+  {
     "repository": "GZOSP-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "8.0"
